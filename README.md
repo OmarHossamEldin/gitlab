@@ -4,6 +4,11 @@
 
 # Getting started
 - for installation 
+  - mkdir gitlab 
+  - cd gitlab
+  - vim docker-compose.yaml
+  - past file configs here and exit
+  - export GITLAB_HOME=$(pwd)/gitlab
   - docker-compose up -d
 - for grepping container ip use the following
   - docker ps -> for listing docker container
